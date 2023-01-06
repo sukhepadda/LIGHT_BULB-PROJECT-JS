@@ -1,3 +1,31 @@
 body{
+    background-color: #da626288;
+}
+.container{
+    text-align: center;
+}
+
+h2{
+    font-size: 38px;
+    color: red;
+    text-transform: uppercase;
+}
+
+img{
+    height: 300px;
+}
+button{
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    margin: 50px 30px;
+    padding: 10px 20px;
+}
+.btnOn{
+    background-color: green;
+    border-radius: 50% 0 50% 0;
+}
+.btnOff{
     background-color: red;
+    border-radius: 0% 50% 0% 50%;
 }

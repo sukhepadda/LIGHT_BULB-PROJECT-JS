@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,16 +8,32 @@
     <title>Light Bulb</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="container">
+    <!-- with local images -->
+    <!-- <div class="container">
         <h2>Click On Off buttons to turn bulb on and off</h2>
-        <img src="off" alt="img of bulb" id="img">
+        <img  src="images/lightOff.png" alt="img of bulb" id="img">
         <div>
-            <button onclick="document.getElementById('img').src = 'on'">Turn the Bulb ON</button>
-            <button onclick="document.getElementById('img').src = 'off'">Turn the Bulb OFF</button>
+            <button onclick="document.getElementById('img').src = 'images/lightOn.png'">Turn the Bulb ON</button>
+            <button onclick="document.getElementById('img').src = 'images/lightOff.png'">Turn the Bulb OFF</button>
+        </div>
+    </div> -->
+
+    <!-- with cdn -->
+    <div class="container">
+        <h2>Click on buttons to turn <br> on and off the Bulb</h2>
+        <img src="https://freepngimg.com/thumb/bulb/1-bulb-png-image.png" alt="img of bulb" id="img">
+        <div>
+            <button class="btnOn"
+                onclick="document.getElementById('img').src = 'https://freepngimg.com/thumb/bulb/5-yellow-light-bulb-png-image.png'">Turn
+                the Bulb ON</button>
+            <button class="btnOff"
+                onclick="document.getElementById('img').src = 'https://freepngimg.com/thumb/bulb/1-bulb-png-image.png'">Turn
+                the Bulb OFF</button>
         </div>
     </div>
-
-<script src="script.js"></script>   
+    <script src="script.js"></script>
 </body>
+
 </html>
